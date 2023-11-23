@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 10px 15px;
+}
+.separator {
+  content: "";
+  width: 100%;
+  border-bottom: 1px solid #d1d4d4;
+}

@@ -1,0 +1,52 @@
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.separator {
+  content: "";
+  width: 100%;
+  border-bottom: 1px solid #d1d4d4;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.titleContent {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  min-width: 35%;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+.price {
+  min-width: 33%;
+  text-align: center;
+}
+
+.changes {
+  width: 33%;
+}
+
+.green {
+  background-color: green;
+  color: white;
+  padding: 3px;
+  border-radius: 7px;
+}
+.red {
+  background-color: red;
+  color: white;
+  padding: 3px;
+  border-radius: 7px;
+}
